@@ -18,9 +18,17 @@ exemple :
 */
 
 function theaterSieges() {
-  // Your code here !
+  // Your code here !node
+  let sieges = new Array();
+  for (let i = 1; i <= 26; i++) {
+    let total = new Array();
+    for (let j = 1; j <= 100; j++) {
+      total.push(`${i}-${j}`);
+    }
+    sieges.push(total);
+  }
+  return sieges;
 }
-
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
