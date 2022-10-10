@@ -98,6 +98,17 @@ p {
   align-content: center;
 }
 
+
+button {
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f76c6c;
+  border: none;
+  cursor: pointer;
+}
+
+
 @media screen and (min-width:700px) {
   .desktop img {
     display: block;
