@@ -5,3 +5,5 @@ function handleHelp(item) {
   help[item].classList.toggle("help-visible");
   problem[item].classList.toggle("problem-no-visible");
 }
+
+

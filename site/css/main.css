@@ -33,3 +33,15 @@ a {
 button:focus {
   outline: none;
 }
+
+@media screen and (min-width:700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  #banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
